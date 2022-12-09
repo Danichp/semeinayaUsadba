@@ -1,0 +1,16 @@
+.text{
+    text-align: justify;
+    padding-right: 30px;
+    width: 50%;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.video {
+    border-radius: 5%;
+    border: 20px solid rgba(51, 190, 51, 0.559); 
+    width: 50%;
+}

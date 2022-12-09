@@ -1,0 +1,134 @@
+.undernavbar {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.undernavbarWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    height: 70px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 60%;
+    border-right: 1px solid rgba(255, 255, 255, 0.41) ;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+
+}
+
+.item:first-child {
+    border-left: 1px solid rgba(255, 255, 255, 0.41) ;
+    position: relative;
+    
+}
+.title {
+    color: rgba(255,255,255,1);
+}
+
+.subTitle{
+    color: rgba(255,255,255,1);
+    font-size: 85%;
+    line-height: 1.6;
+    font-weight: 300;
+    font-style: normal;
+    display: block;
+    opacity: .65;
+}
+
+li {
+    list-style: none;
+}
+.item a a {
+    display:block;
+    margin:0px 10px;
+    padding: 10px 0px;
+    font-size: 14px;
+    text-decoration:none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: none;
+
+    position: relative;
+    width: 200px;
+    font-weight:300;
+
+}
+.item a a:hover{
+    opacity: 0.65;
+    transition: 0.275s;
+}
+.item a a{
+    border-bottom: rgba(255, 255, 255, 0.271) 0.5px solid;
+}
+
+.item ul {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: start;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 536px;
+    height: 336px;
+    border: 7px solid #FFF;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.471);
+    padding: 20px;
+    opacity: 0;
+    transition: 0.275s;
+    visibility: hidden;
+}
+
+.item ul::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to right,rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 1%,transparent 100%);
+
+    top: 0;
+    left: 0;
+}
+.item a:hover > ul  {
+    display:flex;
+    opacity: 1;
+    visibility: visible;
+}
+
+.programsForChild {
+    background-image: url("./../../../image/programsForChild.jpg") ;
+    left: 0;
+}
+.programsForTeenager{
+    background-image: url("./../../../image/programsForTeenager.jpg") ;
+    left: -20%;
+}
+.programsForParents {
+    background-image: url("./../../../image/programsForParents.jpg") ;
+    left:auto !important;
+    right: 0;
+}

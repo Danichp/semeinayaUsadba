@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;   
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+ul{
+    padding: 0 !important;
+}
+html {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    overflow:auto;
+}
+body {
+    width: 100%;
+}
+
+.app-wrapper {
+    width: 100%;
+}
+
+

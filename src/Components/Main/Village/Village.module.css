@@ -1,0 +1,36 @@
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-column-gap: 30px;
+    width: 1170px;
+    padding: 56px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textWrapper{
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #6abe52;
+    font-family: 'Domine';
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(75, 82, 86);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.carousel img{
+    border-radius: 2px;
+}

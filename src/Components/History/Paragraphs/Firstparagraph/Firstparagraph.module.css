@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+}
+
+.image {
+    width: 550px;
+    border-radius: 3px;
+    object-fit: cover;
+    float: left;
+    padding-right: 20px;
+}
+
+.text {
+    text-align: left;
+    text-align: justify;
+}
+
+.title {
+    color: rgba(54, 61, 64, 1);
+    font-size: 30px;
+    margin-bottom: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.subTitle {
+    font-size: 20px;
+    opacity: 0.8;
+    color: rgba(54, 61, 64, 1);
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+/* p {
+    font-size: 18px;
+    color: #667279;
+    line-height: 1.2;
+    font-weight: 300;
+    text-indent: 25px;
+} */

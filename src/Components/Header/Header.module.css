@@ -1,0 +1,89 @@
+.header{
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ 
+}
+
+a {
+    display: block;
+}
+
+.shadow{
+    position: relative;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.25);
+    backdrop-filter: blur(2px);
+}
+
+
+.headerImg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+    height: 100vh;
+    object-position: bottom right
+}
+
+/*------OVERNAVBAR--------------------------*/
+
+.overnavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.overnavbarWrapper{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+    color: rgba(255,255,255,1);
+    font-size: 14px;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+
+.overnavbarAdress {
+    display: flex;
+
+}
+.mapMarker{
+    width: 20px;
+}
+.overnavbarContacts {
+    display: flex;
+
+}
+.overnavbarContacts a {
+    color: rgba(255,255,255,1);
+}
+.overnavbarContacts a:hover {
+    color: rgba(255, 255, 255, 0.589);
+    transition: 0.275s;
+}
+
+.overnavbarContacts >* {
+    margin-right: 10px;
+}
+

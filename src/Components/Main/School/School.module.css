@@ -1,0 +1,78 @@
+.wrapper{
+    width: 100%;
+
+}
+
+.school{
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(./../../../image/Main/backgroundSchool.png);
+    height: 630px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    width: 80%;
+}
+
+.title{
+    color: rgba(54,61,64,1);
+    font-family: 'Domine';
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(75, 82, 86);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.images img{
+    width: 260px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 15%), 0 7px 15px rgb(0 0 0 / 42%);
+    border: 7px solid #fff;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.photo1{
+    margin:-80px 80px 20px 0px ;
+    left: 12%;
+    z-index: 3;
+    transform: rotate(16deg);
+
+    
+}
+.photo2{
+
+    transform: rotate(7deg);
+    z-index: 2;
+    margin: 0px 0px 50px 300px;
+}
+.photo3{
+
+    z-index: 1;
+    transform: rotate(-10deg);
+    
+}

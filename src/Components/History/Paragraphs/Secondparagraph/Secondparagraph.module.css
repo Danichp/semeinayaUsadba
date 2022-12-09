@@ -1,0 +1,23 @@
+
+.wrapper{
+    display: flex;
+    align-items:center;
+    text-align: justify;
+    margin-top: 20px;
+
+}
+/* .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+    height: 100%;
+    opacity: 0.4;
+    min-width: 100vw;
+    margin-left: -150px;
+} */
+
+.text {
+    color: rgb(27, 30, 32);
+}
