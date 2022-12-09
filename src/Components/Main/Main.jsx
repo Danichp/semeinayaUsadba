@@ -18,6 +18,7 @@ const Main = function(){
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/LCti_Ais2RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <Agitation />
+            <button>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti rem doloremque, vel ex exercitationem expedita laboriosam dolorum dolore consectetur omnis assumenda deleniti ut animi, aliquam enim? Nulla dignissimos provident maiores.</button>
         </div>
 
     )
